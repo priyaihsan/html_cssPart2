@@ -1,0 +1,122 @@
+/* buat android */
+body{
+    background-color: rgb(255, 233, 184);
+}
+.bagian-atas{
+    text-align: center;
+    font-family: monospace;
+    margin: 10px;
+}
+
+.sosial-media{
+    font-family: Arial;
+    margin: 10px;
+}
+
+.bagian-tengah{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+th{
+    font-size: 24px;
+    font-weight: bold;
+}
+td{
+    font-size: 16px;
+}
+
+.bagian-bawah{
+    background-color: rgb(172, 197, 114);
+    display: block;
+    justify-content: start;
+    font-family: sans-serif;
+    margin: vertical horizontal 10px;
+    gap: 100px;
+    height: 80vh;
+}
+
+.judul{
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bagian-bawah-end{
+    text-align: center;
+}
+.baris{
+    text-align: end;
+}
+
+
+
+
+/* buat ipad */
+@media(min-device-width: 481px) and (max-device-width:1024px){
+
+
+    .bagian-atas{
+
+        text-align: center;
+        color: rgb(77, 77, 77);
+    }
+
+
+    .bagian-bawah{
+        background-color: rgb(148, 177, 80);
+        margin: 100px 10px;;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .judul{
+        color: black;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* buat PC ke atas */
+@media(min-width:1025px){
+
+    .bagian-atas{
+        font-family: monospace;
+    }
+
+    .bagian-tengah{
+
+        display: flex;
+        justify-content: start;
+        font-family: monospace;
+    
+    }
+
+    .bagian-bawah{
+        background-color: rgb(187, 211, 131);
+        display: flex;
+        justify-content: start;
+        font-family: monospace;
+    }
+
+    table{
+        border: 3px solid black;
+    }
+
+
+    .judul{
+        color: black;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+}
